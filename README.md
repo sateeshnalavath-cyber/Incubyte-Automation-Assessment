@@ -2,12 +2,12 @@
 
 ## Tech Stack
 
-* Java
-* Playwright
-* Maven
-* Cucumber BDD
-* TestNG
-* Page Object Model (POM)
+- Java
+- Playwright
+- Maven
+- Cucumber BDD
+- TestNG
+- Page Object Model (POM)
 
 ## Scenario Automated
 
@@ -24,7 +24,7 @@ mvn clean test
 
 ## Result
 
-* Registration Successful
-* Login Successful
-* Account Balance Captured Successfully
-* BUILD SUCCESS
+- Registration Successful
+- Login Successful
+- Account Balance Captured Successfully
+- BUILD SUCCESS
