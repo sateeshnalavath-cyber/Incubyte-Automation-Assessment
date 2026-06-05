@@ -1,0 +1,6 @@
+pages\LoginPage.class
+utils\BaseTest.class
+runners\TestRunner.class
+stepdefinitions\SignupSteps.class
+pages\AccountPage.class
+pages\RegisterPage.class

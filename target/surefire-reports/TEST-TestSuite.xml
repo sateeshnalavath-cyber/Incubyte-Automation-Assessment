@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="17.446" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\hp\Downloads\Incubyte-Automation-Assessment\target\test-classes;C:\Users\hp\Downloads\Incubyte-Automation-Assessment\target\classes;C:\Users\hp\.m2\repository\com\microsoft\playwright\playwright\1.54.0\playwright-1.54.0.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\hp\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\hp\.m2\repository\com\microsoft\playwright\driver\1.54.0\driver-1.54.0.jar;C:\Users\hp\.m2\repository\com\microsoft\playwright\driver-bundle\1.54.0\driver-bundle-1.54.0.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-java\7.22.1\cucumber-java-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-core\7.22.1\cucumber-core-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-gherkin\7.22.1\cucumber-gherkin-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.1\cucumber-gherkin-messages-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\hp\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\hp\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\hp\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\hp\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\hp\.m2\repository\io\cucumber\datatable\7.22.1\datatable-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-plugin\7.22.1\cucumber-plugin-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\docstring\7.22.1\docstring-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\hp\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\hp\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\hp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-testng\7.22.1\cucumber-testng-7.22.1.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\hp\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.18\bin"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire11372514346252917935\surefirebooter-20260605202407014_3.jar C:\Users\hp\AppData\Local\Temp\surefire11372514346252917935 2026-06-05T20-24-06_754-jvmRun1 surefire-20260605202407014_1tmp surefire_0-20260605202407014_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\hp\Downloads\Incubyte-Automation-Assessment\target\test-classes;C:\Users\hp\Downloads\Incubyte-Automation-Assessment\target\classes;C:\Users\hp\.m2\repository\com\microsoft\playwright\playwright\1.54.0\playwright-1.54.0.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\hp\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\hp\.m2\repository\com\microsoft\playwright\driver\1.54.0\driver-1.54.0.jar;C:\Users\hp\.m2\repository\com\microsoft\playwright\driver-bundle\1.54.0\driver-bundle-1.54.0.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-java\7.22.1\cucumber-java-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-core\7.22.1\cucumber-core-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-gherkin\7.22.1\cucumber-gherkin-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.1\cucumber-gherkin-messages-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\hp\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\hp\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\hp\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\hp\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\hp\.m2\repository\io\cucumber\datatable\7.22.1\datatable-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-plugin\7.22.1\cucumber-plugin-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\docstring\7.22.1\docstring-7.22.1.jar;C:\Users\hp\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\hp\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\hp\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\hp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hp\.m2\repository\io\cucumber\cucumber-testng\7.22.1\cucumber-testng-7.22.1.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\hp\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hp"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.18"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\hp\Downloads\Incubyte-Automation-Assessment"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire11372514346252917935\surefirebooter-20260605202407014_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.18+8-LTS-264"/>
+    <property name="user.name" value="hp"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hp\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.18"/>
+    <property name="user.dir" value="C:\Users\hp\Downloads\Incubyte-Automation-Assessment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.18\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.18;C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;C:\Users\hp\AppData\Local\Android\Sdk\tools;C:\Users\hp\AppData\Local\Android\Sdk\tools\bin;C:\Users\hp\AppData\Local\Android\Sdk\tools;C:\Users\hp\AppData\Local\Android\Sdk;C:\Users\hp\AppData\Local\Android\Sdk;C:\Users\hp\AppData\Local\Android\Sdk;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;C:\Users\hp\AppData\Local\Android\Sdk\tools;C:\Users\hp\AppData\Local\Android\Sdk\tools\bin;C:\Users\hp\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Java\jdk-17.0.18\bin;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.18+8-LTS-264"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Create account and login successfully&quot;, &quot;User Registration and Login&quot;](1)" classname="runners.TestRunner" time="16.413">
+    <system-out><![CDATA[
+Scenario: Create account and login successfully &amp#27;[90m# src/test/resources/features/signup.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser launches Parabank application&amp#27;[0m      &amp#27;[90m# stepdefinitions.SignupSteps.user_launches_parabank_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser registers a new account&amp#27;[0m             &amp#27;[90m# stepdefinitions.SignupSteps.user_registers_a_new_account()&amp#27;[0m
+Login Successful
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should see account overview page&amp#27;[0m    &amp#27;[90m# stepdefinitions.SignupSteps.user_should_see_account_overview_page()&amp#27;[0m
+Account Balance = $600000.00
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser account balance should be displayed&amp#27;[0m  &amp#27;[90m# stepdefinitions.SignupSteps.user_account_balance_should_be_displayed()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>
